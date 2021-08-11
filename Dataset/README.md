@@ -4,7 +4,7 @@
 
 Table of Contents :
 * [Dataset Information](#1)
-	* [How data is collected](#1.1)
+	* [How data is collected?](#1.1)
 * [Attribute Information](#2)
 
 ##  Dataset Information<a id=1></a>
@@ -29,7 +29,7 @@ The above picture shows the breast tumour cells and their nuclei of one of patie
 * radius_worst (or radius_largest) attribute of the patient is the mean of radius of the  three largest nuclei.
 * and so on...
 
-## Attribute Information
+## Attribute Information<a id=2></a>
 
 * Ten real-valued features are computed for each cell nucleus:
 	* radius (mean of distances from center to points on the perimeter)
