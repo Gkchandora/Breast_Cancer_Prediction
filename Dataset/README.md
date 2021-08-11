@@ -17,7 +17,7 @@ To create the dataset , samples taken from the patients with solid masses and an
 For example:
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Gkchandora/Breast_Cancer_Prediction/main/Dataset/Images/Breast_Tumour_Cells.jpeg" alt="Image" width="350" height="200" />
+    <img src="https://raw.githubusercontent.com/Gkchandora/Breast_Cancer_Prediction/main/Dataset/Images/Breast_Tumour_Cells.jpg" alt="Image" width="350" height="200" />
 <br>
 Figure 1 :
 <em>Breast Tumor Cells</em>
