@@ -9,4 +9,4 @@ url = "https://raw.githubusercontent.com/Gkchandora/Breast_Cancer_Prediction/mai
 with httpimport.remote_repo(["sample","data_wrangling", "junk"], url):
     import junk
     from sample import *
-    from data_wrangling *
+    from data_wrangling import *
