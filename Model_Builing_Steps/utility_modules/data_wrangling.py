@@ -99,5 +99,5 @@ df[(df.radius_mean <= 0) & (df.radius_worst <= 0)]
 
 # %%
 """
-*Data is cleaned successfully, now let's move to the next step EDA for model builiding.[EDA Notebook]()*
+*Data is cleaned successfully, now let's move to the next step EDA for model builiding.[EDA Notebook](https://github.com/Gkchandora/Breast_Cancer_Prediction/blob/main/Model_Builing_Steps/NB_2_EDA.ipynb)*
 """
