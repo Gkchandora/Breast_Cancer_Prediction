@@ -1,2 +1,3 @@
-def testfile(x):
-    return(str(x))
+def newfunc(a):
+    s = str(a)
+    return s
