@@ -1,1 +1,2 @@
-print("Test file invoked")
+def testfile(x):
+    return(str(x))
