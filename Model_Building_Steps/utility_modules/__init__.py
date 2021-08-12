@@ -1,5 +1,5 @@
 # modules
-# __all__ = ["sample"] 
+__all__ = ["sample"] 
 print("init file invoked")
 def infun(s):
     print("init file executed")
@@ -10,3 +10,6 @@ with httpimport.remote_repo(["sample","data_wrangling", "junk"], url):
     import junk
     from sample import *
     from data_wrangling import *
+
+def crosscheck():
+    return print(dir())
