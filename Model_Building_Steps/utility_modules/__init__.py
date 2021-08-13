@@ -1,15 +1,13 @@
-# modules
-__all__ = ["sample"] 
-print("init file invoked")
-def infun(s):
-    print("init file executed")
+# __all__ = ["data_wrangling"]
 
-url = "https://raw.githubusercontent.com/Gkchandora/Breast_Cancer_Prediction/main/Model_Building_Steps/utility_modules"
+# Alternate approach to get rid from invoking by module.method
 
-with httpimport.remote_repo(["sample","data_wrangling", "junk"], url):
-    import junk
-    from sample import *
+# url of the packages
+url = "https://raw.githubusercontent.com/Gkchandora/Breast_Cancer_Prediction/main/Model_Building_Steps"
+
+# import libraries
+import httpimport 
+
+# import modules
+with httpimport.remote_repo(["data_wrangling", url]):
     from data_wrangling import *
-
-def crosscheck():
-    return print(dir())
